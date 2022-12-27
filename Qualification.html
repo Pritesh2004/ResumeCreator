@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Qualification.css">
+</head>
+<body>
+        
+        <h1 id="title">Qualification</h1>
+        <form>
+            <br>
+            <br>
+            <br>
+            <label for="level">Qualification Level</label><br>
+            <select name="level" id="level">
+                <option value="ssc">SSC</option>
+                <option value="hsc">Hsc</option>
+                <option value="graduate">Graduate</option>
+                <option value="postgraduate">PostGraduate</option>
+            </select>
+            <div class="Past"><br>
+            <label for="sscResult">Ssc Percentage</label>
+            <input type="text" id="sscResult">
+            <label for="sscMarksheet">Upload Ssc Marksheet</label>
+            <input type="file" id="sscMarksheet"><br><br><br>
+            <label for="hscResult">Hsc Percentage</label>
+            <input type="text" id="hscResult">
+            <label for="hscMarksheet">Upload Hsc Marksheet</label>
+            <input type="file" id="hscMarksheet">
+            <p id="Gap">Any Gap Between this course</p>
+            <label for="yes" id="Yes">Yes</label>
+            <input type="radio" id="yes" value="yes">
+            <label for="no" id="No">No</label>
+            <input type="radio" id="no" value="no"><br><br>
+            <label for="degree">Course name</label><br>
+            <select name="degree" id="degree">
+                <option value="IT">Btech IT</option>
+                <option value="CS">Btech Computer</option>
+                <option value="IT">Btech ECS</option>
+                <option value="IT">Btech EXTC</option>
+                <option value="IT">Btech AUTO</option>
+                <option value="IT">Btech Mechanics</option>
+            </select><br><br>
+            
+            <label for="result">Upload Btech Result</label>
+            <input type="file" id="result"><br>
+            <label for="avg">Average SGPA</label>
+            <input type="text" id="avg"><br><br>
+
+           
+            
+            <label for="skills">Extra Skills</label>
+            <input type="textarea" id="skills"><br>
+            <label for="project">Project build</label>
+            <input type="text" name="project" id="project">
+            </div>
+            <input type="button" id="submit" value="submit">
+        </form>
+    </div>
+    
+</body>
+</html>

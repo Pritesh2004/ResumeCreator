@@ -1,0 +1,189 @@
+body{
+    background-image: linear-gradient(rgba(4, 4, 100, 0.5), rgba(6, 99, 48, 0.5));
+    padding-left: 20PX;
+    padding-right: 20px;
+}
+#Head{
+    font-size:300%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Info{
+    font-size: 220%;
+    color: black;
+}
+#Sname{
+    position: relative;
+    left: 40px;
+    font-size: 50px;
+    bottom: 20px;
+}
+
+#name{
+    position: relative;
+    left: 80px;
+    bottom: 95px;
+    font-size: 25px;
+    width: 480px;
+}
+
+#middle{
+    position: relative;
+    left: 80px;
+    bottom: 85px;
+    font-size: 25px;
+    width: 480px;
+}
+#last{
+    position: relative;
+    left: 80px;
+    bottom: 75px;
+    font-size: 25px;
+    width:480px;
+}
+
+#Gender{
+    position: relative;
+    left: 40px;
+    bottom: 80px;
+    font-size: 50px;
+}
+#Lmale{
+    position: relative;
+    left: 70px;
+    bottom: 110px;
+    font-size: 30px;
+
+}
+#Male{
+    position: relative;
+    left: 70px;
+    bottom: 110px;
+
+}
+#Lfemale{
+    position: relative;
+    left: 70px;
+    bottom:110px;
+    font-size: 30px;
+}
+#Female{
+    position: relative;
+    left: 70px;
+    bottom:110px;
+
+}
+#Lother{
+    position: relative;
+    left: 300px;
+    bottom: 147px;
+    font-size: 30px;
+}
+#other{
+    position: relative;
+    left: 300px;
+    bottom: 147px;
+
+}
+#Limage{
+    position: relative;
+    bottom: 120px;
+    left:40px;
+    font-weight:600;
+}
+#image{
+    position: relative;
+    bottom: 120px;
+    left:40px;
+}
+#Lmno{
+    position: relative;
+    bottom: 435px;
+    left:985px;
+    font-size:40px ;
+}
+#Mno{
+    position: relative;
+    bottom: 400px;
+    left: 802px;
+    width: 390px;
+    height:28px;
+    font-size: 20px;
+}
+#Lano{
+    position: relative;
+    bottom: 320px;
+    left: 395px;
+    font-size: 40px;
+}
+#Ano{
+    position: relative;
+    bottom: 290px;
+    left:125px;
+    width: 390px;
+    height:28px;
+    font-size: 20px;
+}
+#Lemail{
+    position: relative;
+    bottom: 550px;
+    right: 285PX;
+    font-size: 45px; 
+    font-weight: 400;
+}
+#email{
+    position: relative;
+    left: 985px;
+    bottom: 555px;
+    font-size: 20px;
+    width:390px;
+    height: 28px;
+}
+#Lfname{
+    position: relative;
+    bottom: 140px;
+    right:365px;
+    font-size: 40px;
+    font-weight: 500;
+}
+#Fname{
+    position: relative;
+    bottom: 110px;
+    right:570px;
+    width:450px;
+    height:30px;
+}
+#Lmname{
+    position: relative;
+    bottom: 140px;
+    right:95px;
+    font-size: 40px;
+}
+#Mname{
+    position: relative;
+    bottom: 150px;
+    left:990px;
+    width: 380px;
+    height: 30px;
+}
+#Lcity{
+    position: relative;
+    bottom: 310px;
+    left: 588px;
+}
+#city{
+    position: relative;
+    bottom: 280px;
+    left: 520px;
+    width: 380px;
+    height: 30px;
+}
+#submit{
+    position: relative;
+    bottom: 140px;
+    left: 650px;
+    width:180px;
+    font-size: 20px;
+    height: 30px;
+    color: aqua;
+    background: black;
+}
